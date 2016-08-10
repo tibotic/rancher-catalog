@@ -1,0 +1,13 @@
+pokemongo-bot:
+  image: svlentink/pokemongo-bot:stable
+  entrypoint:
+    - python
+    - pokecli.py
+    - --config
+    - configs/config.json.example
+    - -u
+    - ${POKE_USERNAME}
+    - -p
+    - ${POKE_PASSWORD}
+    - -l
+    - ${POKE_LOCATION}

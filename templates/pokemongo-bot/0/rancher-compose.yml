@@ -1,0 +1,23 @@
+.catalog:
+  name: "Pokemongo-Bot"
+  version: "v0.0.0"
+  description: "Pokemon"
+  questions:
+      - variable: "POKE_USERNAME"
+        label: "Username"
+        type: "string"
+        required: true
+        default: ""
+        description: Username
+      - variable: "POKE_PASSWORD"
+        label: "Password"
+        type: "string"
+        required: true
+        default: ""
+        description: Password
+      - variable: "POKE_LOCATION"
+        label: "Location"
+        type: "string"
+        required: true
+        default: ""
+        description: Location
