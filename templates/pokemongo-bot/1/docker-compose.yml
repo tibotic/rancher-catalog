@@ -1,5 +1,5 @@
 pokemongo-bot:
-  build: tibotic/simple-pokemongo-bot:latest
+  image: tibotic/simple-pokemongo-bot:latest
   environment:
     - POKE_USERNAME=${POKE_USERNAME}
     - POKE_PASSWORD=${POKE_PASSWORD}
